@@ -72,7 +72,6 @@ class PaymentEtransaction extends IsotopePayment
 	{
 	
 		log_message('processPostSale Ref : '.$this->Input->get('ref'));
-		#$this->log('Payment could not be processed processPostSale.', __METHOD__, TL_ERROR);
 		#return;
 		/*
 		$montant=$_GET['montant'];
